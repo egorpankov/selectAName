@@ -1,0 +1,132 @@
+body {
+    font-family: fantasy;
+    font-size: 19px;
+    color: #333333;
+    line-height: 1;
+    background-color: #eee;
+}
+.lox{
+    text-align: center;
+    color: orangered;
+    font-weight: normal;
+}
+.justify{
+    text-align: justify;
+} 
+.cyber{
+    color: orangered;
+    text-align: center;
+    font-weight: normal;
+}
+.tabl{
+    font-size: 20px;
+    line-height: 1.9;
+    list-style-type:disc; 
+}
+li{
+    color:orangered;
+}
+span{
+    color:black;
+}
+.table{
+    border: 1px solid #000;
+    width: 100%;
+    border-collapse: collapse;
+}
+.table th{
+    padding: 5px 10px 5px 10px ;
+    text-align: left;
+    color: red;
+}
+.table td{
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #000;
+}
+tfood td{
+    text-align: right;
+}
+.content{
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+}
+.textred{
+    color: orangered;
+    font-weight: 650;
+}
+.footer{
+    text-align: justify;  
+}
+/* post */
+.post{
+    width: 700px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid  #ddd;
+    padding: 15px 20px;
+    background-image: url('../Work/night.jpg');
+    background-size: cover; 
+}
+.post-title{
+    margin: 0 0 10px 0;
+    color: orangered;
+    text-align: center;
+}
+.post-text p{
+    margin: 0 0 10px 0;
+    color: aliceblue;
+}
+/* form */
+.form{ 
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    background-image:url('../Work/bg.jpg');
+}
+.form-group{
+    margin-bottom: 15px;
+}
+.form-input{
+    padding: 3px;
+    border: 1px solid orangered;
+    font-family: fantasy;
+    display: block;
+}
+/*.form-textarea{
+    width: 200px;
+    height: 50px;
+    border: 1px solid orangered;
+    padding: 3px;
+    font-family: fantasy;
+}
+.form-textarea:hover{
+    background-color: darkgrey;
+}
+*/
+.form-input:focus{
+    outline: 0;
+    background-color: #bddbff;
+}
+/* button */
+.btn{
+    background-color: chartreuse;
+    color: #fff;
+}
+.btn:focus{
+    background-color: darkgreen;
+    cursor: pointer;
+}
+.btn:active{
+    background-color: darkslategrey;
+}
+
+
+
+
+
+
+
+
+

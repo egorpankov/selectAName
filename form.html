@@ -1,0 +1,68 @@
+<html>
+    <head>
+    
+        <meta charset="utf-8">
+        <link rel='stylesheet' href='style.css'>
+        <title>формы</title>
+    
+    </head>
+    
+    <body>
+        <label for="name">Выберите имя и узнаете кого так зовут из моей семьи! </label>
+<select id="name">
+  <option value="">...Выберите имя...</option>
+  <option value="egor">Егор</option>
+  <option value="olga">Ольга</option>
+  <option value="sergey">Сергей</option>
+  <option value="polina">Полина</option>
+</select>
+
+<p></p>
+        
+        
+    
+    
+    
+    
+    
+    
+    
+    <script>
+        var select = document.querySelector('select');
+var paragraph = document.querySelector('p');
+
+select.addEventListener('change', setName);
+
+function setName() {
+  var choice = select.value;
+
+  if (choice === 'egor') {
+    paragraph.textContent = 'Так зовут меня!';
+  } else if (choice === 'olga') {
+    paragraph.textContent = 'Так зовут мою маму!';
+  } else if (choice === 'sergey') {
+    paragraph.textContent = 'Так зовут моего папу!';
+  } else if (choice === 'polina') {
+    paragraph.textContent = 'Так зовут мою сестру!';
+  } else {
+    paragraph.textContent = '';
+  }
+}</script>
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
